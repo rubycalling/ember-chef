@@ -3,11 +3,16 @@
   <div class="recipes">
     {{#each model as |recipe|}}
       <div class="recipe-box">
-        <img src="{{recipe.imageUrl}}" alt="{{recipe.title}}" class="recipe-image">
+        <div class="img-wrapper">
+          <img src="{{recipe.imageUrl}}" alt="{{recipe.title}}" class="recipe-image">
+          <div class="overlay">
+            <span class="view-animation">View Recipe</span>
+          </div>
+        </div>
         <div class="details">
           <h3 class="title">{{recipe.title}}</h3>
           <hr>
-          <span class="upcase">{{moment-format recipe.updatedAt 'MMMM DD, YYYY'}}</span>
+          <span class="upcase"><i class="fa fa-calendar"></i> {{moment-format recipe.updatedAt 'MMMM DD, YYYY'}}</span>
         </div>
       </div>
     {{/each}}

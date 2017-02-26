@@ -80,7 +80,7 @@ export default [
     prepTime: '30 minutes',
     cookTime: null,
     serving: 'For Two People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-5029483-tortilla-fajitas-l-860x380.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-5029483-tortilla-fajitas-l-420x400.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'Get that pan piping hot.',
@@ -105,7 +105,7 @@ export default [
     prepTime: '15 minutes',
     cookTime: null,
     serving: 'For Two People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-3627548-avocado-with-melon-and-feta-cheese-salad-l-860x380.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-3627548-avocado-with-melon-and-feta-cheese-salad-l-420x400.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'Shake all ingredients for your chosen variation together in a tightly-lidded container OR whisk together in a small bowl.',
@@ -129,7 +129,7 @@ export default [
     prepTime: '15 minutes',
     cookTime: null,
     serving: 'For Two People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-6906581-barbecue-buffalo-chicken-wings-l-860x380.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-6906581-barbecue-buffalo-chicken-wings-l-420x400.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'Mix the marinade.',

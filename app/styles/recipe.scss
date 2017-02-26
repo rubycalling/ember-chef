@@ -2,12 +2,51 @@
   .recipes {
     display: flex;
     margin-right: -20px;
+    flex-wrap: wrap;
 
     .recipe-box {
-      margin-right: 20px;
+      margin: 0 20px 20px 0;
+      min-width: 120px;
+      max-width: 300px;
 
-      .recipe-image {
-        width: 100%;
+      .img-wrapper {
+        position: relative;
+
+        .recipe-image { width: 100%; }
+        .overlay {
+          opacity: 0;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: transparentize($gray-dark, .7);
+          transition: opacity .3s;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .view-animation {
+            opacity: 0;
+            color: white;
+            padding: 10px 15px;
+            font-size: 17px;
+            background-color: transparentize($gray-dark, .2);
+            margin-top: -20px;
+            transition: margin .5s;
+          }
+        }
+        &:hover {
+          .view-animation {
+            opacity: 1;
+            margin-top: 0;
+            transition: all .5s;
+          }
+          .overlay {
+            opacity: 1;
+            transition: opacity .3s;
+          }
+        }
       }
       .details {
         padding: 20px;
