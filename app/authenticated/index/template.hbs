@@ -1,0 +1,15 @@
+<div id="recipe">
+  <h3 class="headline" data-text="Latest Recipes"></h3>
+  <div class="recipes">
+    {{#each model as |recipe|}}
+      <div class="recipe-box">
+        <img src="{{recipe.imageUrl}}" alt="{{recipe.title}}" class="recipe-image">
+        <div class="details">
+          <h3 class="title">{{recipe.title}}</h3>
+          <hr>
+          <span class="upcase">{{moment-format recipe.updatedAt 'MMMM DD, YYYY'}}</span>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

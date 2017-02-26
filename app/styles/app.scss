@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import "variables";
+@import "ember-bootstrap/bootstrap";
+@import "recipe";
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: $font-color;
+  font-weight: 500;
+}
+
+hr {
+  margin: 10px 0;
+  border-color: $gray-lighter;
+}
+
+.headline {
+  position: relative;
+  line-height: 30px;
+  height: 30px;
+
+  &::before {
+    content: '';
+    border-top: 1px solid $gray-lighter;
+    position: absolute;
+    top: 15px;
+    display: block;
+    width: 100%;
+  }
+  &::after {
+    font-size: 20px;
+    content: attr(data-text);
+    background-color: white;
+    position: absolute;
+    padding-right: 10px;
+    top: 0;
+  }
+}
+.upcase { text-transform: uppercase; }
