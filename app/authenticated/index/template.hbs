@@ -1,25 +1,17 @@
-<div id="recipe">
+<div id="recipes">
   <h3 class="headline" data-text="Latest Recipes"></h3>
   <div class="recipes">
     {{#each model as |recipe|}}
-      <div class="recipe-box">
-        <div class="img-wrapper">
-          <img src="{{recipe.imageUrl}}" alt="{{recipe.title}}" class="recipe-image">
-          <div class="overlay">
-            <span class="view-animation">View Recipe</span>
-          </div>
-        </div>
-        <div class="details">
-          <h3 class="title">{{recipe.title}}</h3>
-          <hr>
-          <p class="font-lighter">
-            <i class="fa fa-user"></i> By <span class="font-lighter">{{recipe.author.name}}</span>
-          </p>
-          <p class="font-lighter">
-            <i class="fa fa-calendar"></i> {{moment-format recipe.updatedAt 'MMMM DD, YYYY'}}
-          </p>
-        </div>
-      </div>
+      {{#recipe-entry recipe=recipe classNames='boxed-list'}}
+        <h3 class="title">{{recipe.title}}</h3>
+        <hr>
+        <p class="font-lighter">
+          <i class="fa fa-user"></i> By <span class="font-lighter">{{recipe.author.name}}</span>
+        </p>
+        <p class="font-lighter">
+          <i class="fa fa-calendar"></i> {{moment-format recipe.updatedAt 'MMMM DD, YYYY'}}
+        </p>
+      {{/recipe-entry}}
     {{/each}}
   </div>
 </div>

@@ -1,1 +1,22 @@
-{{outlet}}
+<div id="recipe">
+  {{#recipe-entry recipe=model classNames='full-recipe'}}
+    {{#if model.prepTime}}
+      <div class="detail-info">
+        <p class="header">Prep Time:</p>
+        <p>{{model.prepTime}}</p>
+      </div>
+    {{/if}}
+    {{#if model.cookTime}}
+      <div class="detail-info">
+        <p class="header">Cook Time:</p>
+        <p>{{model.cookTime}}</p>
+      </div>
+    {{/if}}
+    {{#if model.serving}}
+      <div class="detail-info">
+        <p class="header">Serving:</p>
+        <p>{{model.serving}}</p>
+      </div>
+    {{/if}}
+  {{/recipe-entry}}
+</div>

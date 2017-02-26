@@ -8,7 +8,7 @@ export default [
     prepTime: '10 minutes',
     cookTime: '15 minutes',
     serving: 'For Family',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-1635200-grilled-corn-cobs-l-420x400.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-1635200-grilled-corn-cobs-l.jpg',
     updatedAt: moment().subtract(2, 'hours'),
     instructions: [
       'Bring a large pot of salted water to a boil. Boil corn in the salted water for 5 minutes. Drain the corn.',
@@ -31,7 +31,7 @@ export default [
     prepTime: '40 minutes',
     cookTime: '60 minutes',
     serving: 'For Family',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-2936676-brownie-with-icecream-l-420x400.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-2936676-brownie-with-icecream-l.jpg',
     updatedAt: moment().subtract(1, 'days'),
     instructions: [
       'Preheat oven to 175 degrees C (350 degrees F)',
@@ -58,7 +58,7 @@ export default [
     prepTime: '50 minutes',
     cookTime: '20 minutes',
     serving: 'For 4 People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-7071673-spicy-curry-instant-noodles-with-fork-m-420x400.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-7071673-spicy-curry-instant-noodles-with-fork-m.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'In a stockpot, heat oil and fry the ground paste until quite toasted and oil starts to ooze from the paste',
@@ -83,7 +83,7 @@ export default [
     prepTime: '30 minutes',
     cookTime: null,
     serving: 'For Two People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-5029483-tortilla-fajitas-l-420x400.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-5029483-tortilla-fajitas-l.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'Get that pan piping hot.',
@@ -109,7 +109,7 @@ export default [
     prepTime: '15 minutes',
     cookTime: null,
     serving: 'For Two People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-3627548-avocado-with-melon-and-feta-cheese-salad-l-420x400.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-3627548-avocado-with-melon-and-feta-cheese-salad-l.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'Shake all ingredients for your chosen variation together in a tightly-lidded container OR whisk together in a small bowl.',
@@ -134,7 +134,7 @@ export default [
     prepTime: '15 minutes',
     cookTime: null,
     serving: 'For Two People',
-    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-6906581-barbecue-buffalo-chicken-wings-l-420x400.jpg',
+    imageUrl: 'http://chow.purethe.me/files/2015/03/photodune-6906581-barbecue-buffalo-chicken-wings-l.jpg',
     updatedAt: moment().subtract(2, 'days'),
     instructions: [
       'Mix the marinade.',
