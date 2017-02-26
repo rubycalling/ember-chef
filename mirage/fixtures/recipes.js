@@ -22,7 +22,8 @@ export default [
       'salt - optional (to taste)',
       '1 lime - sliced',
       'bread - one slice for each corb'
-    ]
+    ],
+    authorId: 1
   }, {
     id: 2,
     title: 'Choclate Cake With Green Tea Cream',
@@ -48,7 +49,8 @@ export default [
       'eggs - 4 large',
       'sugar - 150g',
       'baking powder - 2 tablespoons'
-    ]
+    ],
+    authorId: 1
   }, {
     id: 3,
     title: 'Singapore Curry Laksa Noodle',
@@ -72,7 +74,8 @@ export default [
       'chicken thighs - 450g',
       'coconut milk - 500 ml',
       'noodles - 400 g'
-    ]
+    ],
+    authorId: 1
   }, {
     id: 4,
     title: 'Pollo Borracho With Homemade Tortillas',
@@ -97,7 +100,8 @@ export default [
       'green pepper - diced',
       'sour cream',
       'cooking spray'
-    ]
+    ],
+    authorId: 2
   }, {
     id: 5,
     title: 'Avocado Melon Salad With Lime Vinaigrette',
@@ -121,7 +125,8 @@ export default [
       'vinegar - 2 tablespoons (white, cider, wine, ..., not balsamic)',
       'salt',
       'black pepper'
-    ]
+    ],
+    authorId: 2
   }, {
     id: 6,
     title: 'Sweet Chilli and Lime Chicken Wings',
@@ -150,6 +155,7 @@ export default [
       'Chinese plum sauce - 6 tablespoons',
       'cornstarch - 1 tablespoon mixed with 1 tablespoon cold water',
       'chopped cilantro - 2 tablespoons'
-    ]
+    ],
+    authorId: 2
   }
 ];

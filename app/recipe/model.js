@@ -9,5 +9,8 @@ export default DS.Model.extend({
   imageUrl:     DS.attr('string'),
   updatedAt:    DS.attr('date'),
   instructions: DS.attr(),
-  ingredients:  DS.attr()
+  ingredients:  DS.attr(),
+
+  // relationships
+  author: DS.belongsTo('author')
 });
