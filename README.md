@@ -13,8 +13,8 @@ In this presentation, we will explore the 5 key areas that provide a strong basi
 1. Structure your project
 2. The importance of integration tests
 3. Mock your ideal payload
-4.
-5.
+4. Focus on the user Experience
+5. Expect the un-expected
 
 Show the tomster map! with a plane going from area to area
 
