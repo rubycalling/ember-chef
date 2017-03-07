@@ -1,17 +1,5 @@
-<a href="{{href-to 'authenticated.recipes' recipe.id}}" class="img-wrapper">
-  <div class="recipe-image" style={{imageStyle}}></div>
-  <div class="overlay">
-    <span class="view-animation">View Recipe</span>
-  </div>
-</a>
-<div class="details">
-  {{#if hasBlock}}
-    {{yield}}
-  {{else}}
-    {{!-- <div class="details">
-      <h1>{{recipe.title}}</h1>
-      <p class="chef">{{recipe.author.name}}</p>
-      <p class="date">{{recipe.updatedAt}}</p>
-    </div> --}}
-  {{/if}}
-</div>
+<img src="{{recipe.photo}}" class="photo">
+<h1 class="title">{{recipe.title}}</h1>
+<p class="chef">{{recipe.author}}</p>
+<p class="date">{{recipe.date}}</p>
+<div class="rating">{{recipe.rating}}</div>
