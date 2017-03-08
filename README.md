@@ -573,6 +573,9 @@ Using hooks / sub-estate: (template, action)
   - error
   - loading
 
+> If an error page is found, the router will immediately transition into that substate (without updating the URL). The "reason" for the error (i.e. the exception thrown or the promise reject value) will be passed to that error state as its model.
+> The model hooks (beforeModel, model, and afterModel) of an error substate are not called. Only the setupController method of the error substate is called with the error as the model.
+
 
 > Handle long running task properly
 
